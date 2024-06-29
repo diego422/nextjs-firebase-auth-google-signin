@@ -40,6 +40,9 @@ export function Header({ session }: { session: string | null }) {
           <li>
             <a href='#'>Menu C</a>
           </li>
+          <li>
+            <a href='#'>Menu k</a>
+          </li>
         </ul>
       </nav>
       <button onClick={handleSignOut}>Sign Out</button>
